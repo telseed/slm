@@ -1,14 +1,4 @@
-﻿--[[
 
-     **************************
-     *  BlackPlus Plugins...  *
-     *                        *
-     *     By @MehdiHS        *
-     *                        *
-     *  Channel > @Black_Ch   *
-     **************************
-	 
-]]
 local function temps(K)
 	local F = (K*1.8)-459.67
 	local C = K-273.15
@@ -118,7 +108,7 @@ local function run(msg, matches)
 		
 		return today.."وضعيت آب و هوا در پنج روز آينده:\n"..after
 	else
-		return "مکان وارد شده صحيح نيست"
+		return "داداچ داری اشتباه میزنی"
 	end
 end
 
@@ -133,14 +123,3 @@ return {
 	run = run,
 }
 
---[[
-
-     **************************
-     *  BlackPlus Plugins...  *
-     *                        *
-     *     By @MehdiHS        *
-     *                        *
-     *  Channel > @Black_Ch   *
-     **************************
-	 
-]]
